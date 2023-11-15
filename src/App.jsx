@@ -1,5 +1,3 @@
-import SignInSide from "./pages/SignIn"
-import Dashboard from "./pages/DashBoard"
 import Nav from "./components/Nav";
 import React, { useEffect, useState } from 'react';
 import axios from 'axios'
