@@ -1,4 +1,4 @@
-import SignInSide from "./pages/login"
+import SignInSide from "./pages/SignIn"
 
 function App() {
   return (
