@@ -1,4 +1,26 @@
-# React + Vite
+# Quote management system
+
+## Database
+
+Database created with firebase, a non-relational database based on the tables requested to display in the forntend, these are:
+
+| Pedido  | Cliente | Producto |
+| ------------- | ------------- | ------------- |
+| id_cliente  | nit  | id  |
+| fecha  | razon_social  | nombre  |
+| producto  | direccion  | unidad  |
+| cantidad  | estado  | precio  |
+
+## Development setup
+
+To test the project, just clone and execute the following commands in the console.
+
+```sh
+npm install
+npm run dev
+```
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
