@@ -59,7 +59,7 @@ function Clientes(props) {
         <Grid item xs={12}>
           <Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }}>
             <React.Fragment>
-              <Title>Recent Orders</Title>
+              <Title>Clientes</Title>
               <Table size="small">
                 <TableHead>
                   <TableRow>
@@ -81,7 +81,7 @@ function Clientes(props) {
                 </TableBody>
               </Table>
               <Link color="primary" href="#" onClick={preventDefault} sx={{ mt: 3 }}>
-                See more orders
+                Ver más
               </Link>
             </React.Fragment>
           </Paper>
