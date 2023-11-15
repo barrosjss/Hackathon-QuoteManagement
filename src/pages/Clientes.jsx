@@ -87,9 +87,7 @@ function Clientes(props) {
           </Paper>
         </Grid>
       </Grid>
-
     </Container>
-
   );
 }
 

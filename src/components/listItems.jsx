@@ -24,7 +24,7 @@ export const mainListItems = (
         <ListItemIcon>
           <ShoppingCartIcon />
         </ListItemIcon>
-        <ListItemText primary="Pedidos" />
+        <ListItemText primary="Cotización" />
       </ListItemButton>
     </Link>
     <Link to="/clientes" style={{ textDecoration: 'none', color: "black" }}>

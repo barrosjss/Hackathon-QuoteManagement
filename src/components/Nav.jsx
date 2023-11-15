@@ -17,6 +17,7 @@ import Pedidos from '../pages/Pedidos';
 import Dashboard from '../pages/DashBoard';
 import Clientes from '../pages/Clientes';
 import Productos from '../pages/Productos';
+import NuevoPedido from '../pages/NuevoPedido';
 
 const drawerWidth = 240;
 
@@ -146,6 +147,7 @@ export default function Nav() {
               <Route path="/pedidos" element={<Pedidos />} />
               <Route path="/clientes" element={<Clientes />} />
               <Route path="/productos" element={<Productos />} />
+              <Route path="/nuevo" element={<NuevoPedido />} />
             </Routes>
           </Box>
         </Box>
