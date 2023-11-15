@@ -6,10 +6,11 @@ Database created with [Firebase](https://firebase.google.com/docs/database?hl=es
 
 | Pedido  | Cliente | Producto |
 | ------------- | ------------- | ------------- |
-| id_cliente  | nit  | id  |
+| id  | nit  | id  |
 | fecha  | razon_social  | nombre  |
 | producto  | direccion  | unidad  |
 | cantidad  | estado  | precio  |
+| id_cliente  |  |  |
 
 ## Development setup
 
